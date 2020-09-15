@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toyota E-Dealer</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- owl carousel -->
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0="
+      crossorigin="anonymous"
+    ></link>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw="
+      crossorigin="anonymous"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw="
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header id="header">
+      <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">
+          160 erskine ave 508, Toronto Ontario
+        </p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 border-right border-left text-dark">login</a>
+          <a href="#" class="px-3 border-right text-dark">wishlist</a>
+        </div>
+      </div>
+
+      <!-- primary navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+        <a class="navbar-brand" href="#">Toyota E-Dealer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto font-rubik">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">On Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Prouducts<i class="fa fa-chevron-down"></i
+              ></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Category<i class="fa fa-chevron-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">coming soon</a>
+            </li>
+          </ul>
+          <form action="#" class="font-size-14 font-rale">
+            <a href="#" class="py-2 rounded-pill color-primary-bg">
+              <span class="font-size-16 px-2 text-white"
+                ><i class="fas fa-shopping-cart"></i
+              ></span>
+              <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+            </a>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- main site -->
+    <main id="main-site">
+      <!-- owl carousel -->
+      <section id="banner-area">
+        <div class="owl-carousel owl-theme">
+          <!-- <div class="item">
+            <img src="./assets/Banner1.jpg" alt="banner1" />
+          </div> -->
+          <div class="item">
+            <img src="./assets/toyota-web-banner.jpg" alt="banner2" />
+          </div>
+        </div>
+      </section>
+      <!-- end carousel -->
+
+      <!-- Top Sale -->
+      <section id="top-sale">
+        <div class="container py-5">
+          <h4 class="font-rubik font-size-20">Top Sale</h4>
+          <hr />
+          <!-- owl carousel -->
+          <div class="owl-carousel owl-theme">
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/Product/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Tundra</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$18,000</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/Product/2.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota RAV4</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$22,344</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/Product/3.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Highlander</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$15,666</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/Product/6.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota carolla</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$15,666</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/Product/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Tundra</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$21,333</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <div class="d-flex flex-column">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/1.png"
+                      class="img-fluid"
+                      alt="pro1"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Toyota Tundra Limited</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$23,333</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <div class="d-flex flex-column">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/2.png"
+                      class="img-fluid"
+                      alt="pro1"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota RAV4 Loaded</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$24,989</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- !owl carousel -->
+        </div>
+      </section>
+      <!-- !Top Sale -->
+
+      <!-- special price -->
+      <section id="special-price">
+        <div class="container">
+          <h4 class="font-rubik font-size-20">Special Price</h4>
+          <div
+            id="filters"
+            class="button-group text-right font-balo font-size-16"
+          >
+            <button class="btn is-checked" data-filter="*">All Brands</button>
+            <button class="btn" data-filter=".Car">Car</button>
+            <button class="btn" data-filter=".Suv">Suv</button>
+            <button class="btn" data-filter=".Truck">Truck</button>
+            <button class="btn" data-filter=".Van">Van</button>
+          </div>
+
+          <div class="grid">
+            <div class="grid-item Truck border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/1.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Tundra</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$18,000</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Truck border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/4.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Taccoma</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$25,234</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Car border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/5.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota CH-R</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$24,441</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Car border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/8.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Camry</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$21,000</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Truck border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/7.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Tundra</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$32,000</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Suv border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/2.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota RAV4</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$22,344</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Suv border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/3.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Highlander</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$22,222</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Van border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/11.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Sienna</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$35,270</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Suv border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/10.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>White SUV</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$28,222</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Car border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/9.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Toyota Camry X</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$24,011</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of special -->
+
+      <!-- Banner Ads  -->
+      <section id="banner_adds">
+        <div class="container py-5 text-center">
+          <img src="./assets/Banner1.jpg" alt="banner1" class="img-fluid" />
+        </div>
+      </section>
+      <!-- !Banner Ads  -->
+
+      <!-- New vehicles-->
+      <section id="new-cars">
+        <div class="container">
+          <h4 class="font-rubik font-size-20">New Vehichles</h4>
+          <hr />
+
+          <!-- owl carousel -->
+          <div class="owl-carousel owl-theme">
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/product/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Tundra</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$18,000</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/product/2.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota RAV4</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$22,344</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/product/3.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Highlander</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$19,888</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/product/6.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>2020 Toyota Corolla</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$15,666</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/product/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Toyota Tundra Limited</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$23,333</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <div class="d-flex flex-column">
+                  <a href="#"
+                    ><img
+                      src="./assets/product/1.png"
+                      class="img-fluid"
+                      alt="pro1"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota RAV4 Loaded</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$24,989</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <div class="d-flex flex-column">
+                  <a href="#"
+                    ><img
+                      src="./assets/Product/1.png"
+                      class="img-fluid"
+                      alt="pro1"
+                  /></a>
+                  <div class="text-center">
+                    <h6>2020 Toyota Tundra</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>$18,000</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- !owl carousel -->
+        </div>
+      </section>
+      <!-- !New vehichles-->
+    </main>
+    <!-- end of main -->
+
+    <!-- start of footer -->
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <h4 class="font-rubik font-size-20">Toyota E-Dealer</h4>
+            <p class="font-size-14 font-rale text-white-50">
+              The finest Trucks Cars and SUVS in all the land.
+            </p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h4 class="font-rubik font-size-20">Newsletter</h4>
+            <form class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Email *" />
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary mb-2">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Information</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >About Us</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Delivery Information</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Privacy Policy</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Terms & Conditions</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Account</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >My Account</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Order History</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Wish List</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Newsletters</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+      <p class="font-rale font-size-14">
+        &copy; Copyrights 2020. Desing By
+        <a href="#" class="color-second">KPCH</a>
+      </p>
+    </div>
+    <!-- end of footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owl carousel js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- istop plugin -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+      integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom js -->
+    <script src="index.js"></script>
+  </body>
+</html>
