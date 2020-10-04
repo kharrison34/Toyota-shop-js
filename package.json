@@ -1,0 +1,20 @@
+{
+  "name": "toyota-shop",
+  "version": "1.0.0",
+  "description": "An online store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharrison34/Toyota-shop-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharrison34/Toyota-shop-js/issues"
+  },
+  "homepage": "https://github.com/kharrison34/Toyota-shop-js#readme"
+}

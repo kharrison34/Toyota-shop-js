@@ -77,3 +77,24 @@ $(document).ready(function () {
     }
   });
 });
+
+//shopping cart functionality
+
+// const removeCartItemButtons = document.getElementsByClassName('btn-warning');
+// console.log(removeCartItemButtons);
+// for (let i = 0; i < removeCartItemButtons.length; i++) {
+//   let button = removeCartItemButtons[i];
+//   button.addEventListener('click', function (event) {
+//     let buttonClicked = event.target;
+//     buttonClicked.parentElement.parentElement.remove();
+//   });
+// }
+
+//the phoenix king: an empire of ashes
+//cart variables
+
+//add items to cart
+//update cart icon//
+//remove cart items
+//change price
+//checkout
